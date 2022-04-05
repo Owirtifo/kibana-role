@@ -11,5 +11,5 @@
 - name: Copy Kibana to manage host
   copy:
     src: "files/kibana-{{ kibana_version }}-amd64.deb"
-    mode: 0755
+    mode: 0644
     dest: "/tmp/kibana-{{ kibana_version }}-amd64.deb"
